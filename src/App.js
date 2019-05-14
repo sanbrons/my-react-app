@@ -35,6 +35,8 @@ class App extends Component {
           <div className="me--btn-w">
             <Button onClick={() => this.toggleModal("red")} text="Click" colour="red"/>
             <Button onClick={() => this.toggleModal("blue")} text="Click" colour="blue"/>
+            <Button onClick={() => this.toggleModal("grey")} text="Click" colour="grey"/>
+            <Button onClick={() => this.toggleModal("green")} text="Click" colour="green"/>
           </div>
 
           <Modal show={this.state.isOpen}
