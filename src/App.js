@@ -4,13 +4,6 @@ import Greeting from './Components/Greeting';
 import Modal from './Components/Modal';
 import Button from './Components/Button';
 
-const redbtn= {
-  background: 'red'
-}
-const bluebtn= {
-  background: 'blue'
-}
-
 class App extends Component {
   constructor(props) {
     super(props);
